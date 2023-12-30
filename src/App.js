@@ -4,6 +4,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <div>
@@ -18,6 +19,11 @@ function App() {
                         exact
                         path="/Signin"
                         element={<Signin />}
+                    />
+                     <Route
+                        exact
+                        path="/Signup"
+                        element={<Signup />}
                     />
                 </Routes>
             </BrowserRouter>

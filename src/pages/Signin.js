@@ -18,15 +18,12 @@ function Signin() {
           <label for="fname">Name</label>
           <input type="text" id="fname" name="fname" value="Name" />
         </div>
-        <div>
-          {" "}
-          <label for="lname">Email</label>
-          <input type="text" id="lname" name="lname" value="Email" />
-        </div>
+      
         <div>
           <label for="lname">Password</label>
           <input type="password" id="lname" name="lname" value="Password" />
         </div>
+        <h4>Lost password? Click here</h4>
       </div>
     </form>
 
